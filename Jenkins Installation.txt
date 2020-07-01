@@ -1,0 +1,10 @@
+For Redhat
+$ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+$ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+$ yum install jenkins
+
+For Java Installation
+
+$ wget https://www.dropbox.com/s/54vt88vze5aloln/jdk-8u221-linux-x64.rpm?dl=0
+
+$ rpm -ivh jdk-8u221-linux-x64.rpm?dl=0
